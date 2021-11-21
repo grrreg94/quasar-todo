@@ -7,7 +7,7 @@
        class="col"
        square
        bg-color="white"             
-       placeholder="Add task" 
+       placeholder="Dodaj zadanie" 
        dense
        >       
         <template v-slot:append>
@@ -84,13 +84,13 @@ export default {
   {
     deleteTask(index) {
       this.$q.dialog({
-        title: 'Confirm',
-        message: 'Would you like to delete?',
+        title: 'Uwaga',
+        message: 'Jesteś pewien?',
         cancel: true,
         persistent: true
       }).onOk(() => {
         this.tasks.splice(index, 1)
-        this.$q.notify('Deleted')
+        this.$q.notify('Usunięto')
       })
       
     },

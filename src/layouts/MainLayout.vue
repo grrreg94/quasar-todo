@@ -42,14 +42,14 @@
                 <q-icon name="help" />
               </q-item-section>
               <q-item-section>
-                Help
+                Pomoc
               </q-item-section>
             </q-item>
             
           </q-list>
         </q-scroll-area>
 
-        <q-img class="absolute-top" src="../statics/sea.jpg" style="height: 185px">
+        <q-img class="absolute-top " src="../statics/sea.jpg" style="height: 185px ">
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="56px" class="q-mb-sm">
               <img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/100713259_3873325919406105_6290945495892230144_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ZDqMGc7AO98AX_R8rPe&_nc_ht=scontent-frt3-1.xx&oh=71ac9ce2e419909f1442b0516238a1e6&oe=61B693C5">
@@ -151,7 +151,8 @@ export default defineComponent({
   .header-image{
     height: 100%;
     z-index: -1;
-    opacity: 0.2;
-    filter: grayscale(100%)
+    opacity: 0.4;
+    filter: grayscale(80%)
   }
+
   </style>
